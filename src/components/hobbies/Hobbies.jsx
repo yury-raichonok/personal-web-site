@@ -70,6 +70,7 @@ const HobbieContentRow = styled.div`
   display: flex;
   padding: 5px;
   max-width: 80%;
+  text-align: justify;
 `;
 
 const HobbieContentTitle = styled.div`
@@ -77,6 +78,10 @@ const HobbieContentTitle = styled.div`
   font-size: 25px;
   font-weight: 500;
   padding-bottom: 10px;
+
+  @media (max-width: 770px) {
+    margin-top: 10px;
+  }
 `;
 
 const HobbieImage = styled.div`
