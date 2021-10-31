@@ -83,6 +83,12 @@ const Skills = () => {
       </SkillsRowContainer>
       <SkillsRowContainer>
         <SkillsNameContainer>
+          Spring:
+        </SkillsNameContainer>
+        <Rate disabled defaultValue={7} character={({ index }) => customIcons[index + 1]} count="10" />
+      </SkillsRowContainer>
+      <SkillsRowContainer>
+        <SkillsNameContainer>
           React JS:
         </SkillsNameContainer>
         <Rate disabled defaultValue={5} character={({ index }) => customIcons[index + 1]} count="10" />
@@ -92,6 +98,12 @@ const Skills = () => {
           HTML 5:
         </SkillsNameContainer>
         <Rate disabled defaultValue={5} character={({ index }) => customIcons[index + 1]} count="10" />
+      </SkillsRowContainer>
+      <SkillsRowContainer>
+        <SkillsNameContainer>
+          AEM:
+        </SkillsNameContainer>
+        <Rate disabled defaultValue={4} character={({ index }) => customIcons[index + 1]} count="10" />
       </SkillsRowContainer>
     </SkillsContainer>
   )
