@@ -75,6 +75,7 @@ const HobbieContentRow = styled.div`
   padding: 5px;
   max-width: 80%;
   text-align: justify;
+  font-weight: 300;
 
   @media (max-width: 950px) {
     font-size: 15px;
