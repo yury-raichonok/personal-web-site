@@ -12,6 +12,11 @@ const ChapterTitle = styled.div`
   font-weight: 500;
   line-height: 1;
   padding: 100px;
+
+  @media (max-width: 500px) {
+    font-size: 32px;
+    padding: 50px;
+  }
 `;
 
 const TimelineContainer = styled.div`

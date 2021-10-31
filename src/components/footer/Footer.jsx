@@ -28,6 +28,10 @@ const FooterEmailRow = styled.div`
   font-weight: 500;
   line-height: 1;
   text-align: center;
+
+  @media (max-width: 500px) {
+    font-size: 28px;
+  }
 `;
 
 const FooterLink = styled.a`

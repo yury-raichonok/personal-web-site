@@ -16,6 +16,11 @@ const ChapterTitle = styled.div`
   line-height: 1;
   padding: 100px;
   text-align: center;
+
+  @media (max-width: 500px) {
+    font-size: 32px;
+    padding: 50px;
+  }
 `;
 
 const HobbieCard = styled.div`
@@ -27,6 +32,14 @@ const HobbieCard = styled.div`
   margin-bottom: 40px;
   min-height: 150px;
   width: 900px;
+
+  @media (max-width: 950px) { 
+    width: 90%;
+  }
+
+  @media (max-width: 650px) { 
+    flex-direction: column;
+  }
 `;
 
 const HobbieContainer = styled.div`
@@ -46,6 +59,11 @@ const HobbieContent = styled.div`
   flex-direction: column;
   justify-content: center;
   width: 100%;
+
+  @media (max-width: 650px) {
+    height: 180px; 
+    width: 100%;
+  }
 `;
 
 const HobbieContentRow = styled.div`
@@ -63,6 +81,11 @@ const HobbieContentTitle = styled.div`
 
 const HobbieImage = styled.div`
   width: 600px;
+
+  @media (max-width: 650px) {
+    height: 150px; 
+    width: 100%;
+  }
 `;
 
 const HobbieLink = styled.a`

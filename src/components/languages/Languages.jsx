@@ -10,6 +10,11 @@ const ChapterTitle = styled.div`
   line-height: 1;
   padding: 100px;
   text-align: center;
+
+  @media (max-width: 500px) {
+    font-size: 32px;
+    padding: 50px;
+  }
 `;
 
 const LanguagesContainer = styled.div`
@@ -27,10 +32,20 @@ const LanguagesName = styled.div`
   font-weight: 500;
   line-height: 1;
   padding-top: 5px;
+
+  @media (max-width: 360px) {
+    font-size: 18px;
+    margin-right: 30px;
+  }
 `;
 
 const LanguagesNameContainer = styled.div`
   width: 110px;
+
+  @media (max-width: 360px) {
+    display: flex;
+    align-items: center;
+  }
 `;
 
 const LanguagesRowContainer = styled.div`
@@ -41,6 +56,16 @@ const LanguagesRowContainer = styled.div`
 
   .ant-rate {
     color: #fb5525;
+  }
+
+  @media (max-width: 470px) {
+    .ant-rate-star {
+      font-size: 15px;
+    }
+  }
+
+  @media (max-width: 360px) {
+    flex-direction: column;
   }
 `;
 

@@ -4,10 +4,6 @@ import 'flag-icon-css/css/flag-icon.min.css';
 import { Link } from 'react-scroll';
 import styled from 'styled-components';
 
-const ContentContainer = styled.div`
-  height: 82px;
-`;
-
 const DescriptionContainer = styled.div`
   font-size: 15px;
   font-weight: 500;
@@ -53,12 +49,11 @@ const NavbarLinkContainer = styled.div`
 const Navigation = () => {
 
   return (
-    <ContentContainer>
-      <Navbar collapseOnSelect expand="lg" >
+    <Navbar collapseOnSelect expand="lg" >
         <Container>
           <Navbar.Brand>
             <LableConteiner>
-              <Link activeClass="about" spy={true} smooth={true}>YURY RAICHONAK</Link>
+              <Link activeClass="about" spy={true} >YURY RAICHONAK</Link>
             </LableConteiner>
             <DescriptionContainer>
               Java | AEM developer
@@ -67,18 +62,17 @@ const Navigation = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"/>
-            <Nav>
-              <NavbarLinkContainer><Link to="about" spy={true} smooth={true} >About</Link></NavbarLinkContainer>
-              <NavbarLinkContainer><Link to="work" spy={true} smooth={true} >W&A</Link></NavbarLinkContainer>
-              <NavbarLinkContainer><Link to="skills" spy={true} smooth={true} >Skills</Link></NavbarLinkContainer>
-              <NavbarLinkContainer><Link to="languages" spy={true} smooth={true} >Languages</Link></NavbarLinkContainer>
-              <NavbarLinkContainer><Link to="hobbies" spy={true} smooth={true} >Hobbies</Link></NavbarLinkContainer>
-              <NavbarLinkContainer><Link to="contact" spy={true} smooth={true} >Contact</Link></NavbarLinkContainer>
+            <Nav  >
+              <NavbarLinkContainer><Link to="about" spy={true} >About</Link></NavbarLinkContainer>
+              <NavbarLinkContainer><Link to="work" spy={true} >W&A</Link></NavbarLinkContainer>
+              <NavbarLinkContainer><Link to="skills" spy={true} >Skills</Link></NavbarLinkContainer>
+              <NavbarLinkContainer><Link to="languages" spy={true} >Languages</Link></NavbarLinkContainer>
+              <NavbarLinkContainer><Link to="hobbies" spy={true} >Hobbies</Link></NavbarLinkContainer>
+              <NavbarLinkContainer><Link to="contact" spy={true} >Contact</Link></NavbarLinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </ContentContainer>
   )
 }
 

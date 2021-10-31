@@ -10,6 +10,11 @@ const ChapterTitle = styled.div`
   line-height: 1;
   padding: 100px;
   text-align: center;
+
+  @media (max-width: 500px) {
+    font-size: 32px;
+    padding: 50px;
+  }
 `;
 
 const SkillsContainer = styled.div`
@@ -23,6 +28,11 @@ const SkillsNameContainer = styled.div`
   font-weight: 500;
   padding-top: 5px;
   width: 110px;
+  
+  @media (max-width: 360px) {
+    font-size: 18px;
+    margin-right: 30px;
+  }
 `;
 
 const SkillsRowContainer = styled.div`
@@ -33,6 +43,16 @@ const SkillsRowContainer = styled.div`
 
   .ant-rate {
     color: #fb5525;
+  }
+
+  @media (max-width: 470px) {
+    .ant-rate-star {
+      font-size: 15px;
+    }
+  }
+
+  @media (max-width: 360px) {
+    flex-direction: column;
   }
 `;
 
