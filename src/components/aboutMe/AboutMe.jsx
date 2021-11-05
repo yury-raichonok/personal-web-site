@@ -91,7 +91,7 @@ const AboutMe = () => {
   return (
     <AboutMeContainer>
       <ContentContainer>
-      <ImageInTopContainer src="https://media-exp1.licdn.com/dms/image/C4D03AQFnuLjJuCfD0Q/profile-displayphoto-shrink_800_800/0/1627720660846?e=1635984000&v=beta&t=yhzb4a0HwPSko8PxyvubXzGLc1MM73nOK9sWlfAd8IE"/>
+      <ImageInTopContainer src="https://media-exp1.licdn.com/dms/image/C4D03AQFnuLjJuCfD0Q/profile-displayphoto-shrink_400_400/0/1627720660846?e=1641427200&v=beta&t=sXmV8MNY3v6ZqzM3aOMXI_o1q1hG1SuRuTfI7G4dvUY"/>
         <DescriptionContainer>
           <ContentTitle>
             Hello, my name is Yury and I'm a Junior Software Engineer.
@@ -103,7 +103,7 @@ const AboutMe = () => {
             Currently I hold the position of Junior Software ingineer at EPAM Systems.
           </ContentText>
         </DescriptionContainer>
-        <ImageContainer src="https://media-exp1.licdn.com/dms/image/C4D03AQFnuLjJuCfD0Q/profile-displayphoto-shrink_800_800/0/1627720660846?e=1635984000&v=beta&t=yhzb4a0HwPSko8PxyvubXzGLc1MM73nOK9sWlfAd8IE"/>
+        <ImageContainer src="https://media-exp1.licdn.com/dms/image/C4D03AQFnuLjJuCfD0Q/profile-displayphoto-shrink_400_400/0/1627720660846?e=1641427200&v=beta&t=sXmV8MNY3v6ZqzM3aOMXI_o1q1hG1SuRuTfI7G4dvUY"/>
       </ContentContainer>
     </AboutMeContainer>
   )
